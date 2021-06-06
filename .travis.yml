@@ -8,4 +8,4 @@ before_install:
   - docker build -t navanithbs/react_ecom_website -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true navanithbs/react_ecom_website npm run test -- --coverage
+  - docker run -e CI=true navanithbs/react_ecom_website npm run test
