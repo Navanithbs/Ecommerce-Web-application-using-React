@@ -9,3 +9,12 @@ before_install:
 
 script:
   - docker run -e CI=true navanithbs/react_ecom_website npm run test
+deploy:
+  provider: elasticbeanstalk
+  region: "us-east-2"
+  app: "react_web_application"
+  env: "Docker-env"
+  bucket_name: "elasticbeanstalk-us-east-2-601430843364"
+  bucket_path: "react_web_application"
+  on:
+    branch: master
