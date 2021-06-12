@@ -9,6 +9,7 @@ import {
   Error,
   About,
   Products,
+  Feedbacks,
   PrivateRoute,
   AuthWrapper,
 } from "./pages";
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route exact path="/products">
             <Products />
+          </Route>
+          <Route exact path="/feedbacks">
+            <Feedbacks />
           </Route>
           <Route path="/products/:id" children={<SingleProduct />} />
           <PrivateRoute path="/checkout">
