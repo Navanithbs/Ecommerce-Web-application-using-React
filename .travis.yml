@@ -18,5 +18,5 @@ deploy:
   bucket_path: "react_web_application"
   on:
     branch: master
-  access_key_id: "$AKIAWVTOX2SXGOFVRVE2"
-  secret_access_key: "$APPsnMrz2jFKs3wWkZOymE8xJx0ivJY54YfKnQgz"
+  access_key_id: "AKIAWVTOX2SXGOFVRVE2"
+  secret_access_key: "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"
