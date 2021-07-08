@@ -16,9 +16,9 @@ deploy:
   env: "Nkmsecom-env"
   bucket_name: "react-ecom-nkms"
   # bucket_path: "travis-path"
-  on:
-    branches:    
-      only:      
-        - main
+  # on:
+  #   branches:    
+  #     only:      
+  #       - master 
   access_key_id: "$AWS_ACCESS_KEY"
   secret_access_key: "$AWS_SECRET_KEY"
