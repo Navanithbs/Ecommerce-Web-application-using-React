@@ -4,3 +4,4 @@ services:
     image: "navanithbs07/react_ecom_website"
     ports:
       - "80:80"
+      - "443:443"
