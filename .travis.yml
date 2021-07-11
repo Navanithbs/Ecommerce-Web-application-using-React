@@ -12,8 +12,8 @@ after_success:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
-  app: "NKMS_Ecom"
-  env: "Nkmsecom-env"
+  app: "React_Ecom_NKMS"
+  env: "Reactecomnkms-env"
   bucket_name: "react-ecom-nkms"
   bucket_path: "travis-path"
   on:
