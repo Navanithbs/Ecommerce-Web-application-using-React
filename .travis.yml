@@ -3,8 +3,6 @@ language: generic
 
 services:
   - docker
-script:
-  - npm test
 before_install:
   - docker build -t navanithbs07/react_ecom_website .
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
