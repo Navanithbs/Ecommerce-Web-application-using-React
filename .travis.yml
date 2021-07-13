@@ -1,7 +1,5 @@
 sudo: required
 language: generic
-script:
-  - docker run -e CI=true navanithbs/react_ecom_website npm run test
 services:
   - docker
 before_install:
