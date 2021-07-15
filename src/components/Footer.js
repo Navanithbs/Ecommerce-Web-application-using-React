@@ -5,8 +5,7 @@ const Footer = () => {
   return (
     <Container>
       <h5>
-        {/* &copy;  */}
-        {new Date().getFullYear()}
+        {/* {new Date().getFullYear()} */}
       </h5>
 
       <span>
